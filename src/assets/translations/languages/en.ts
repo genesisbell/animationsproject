@@ -17,7 +17,7 @@ const en = {
         animaciones: 'Animations',
     },
     copyright:{
-        version: 'Versión',
+        version: 'Version',
     },
 }
 
