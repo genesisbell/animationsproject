@@ -1,21 +1,25 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import Colors from '../../assets/ColorsLibrary';
+import {
+  darkTheme,
+  lightTheme,
+  mcDonaldsTheme,
+} from 'themes';
 
 export const themeSlice = createSlice({
   name: 'theme',
   initialState: {
-    value: Colors.lightTheme
+    value: lightTheme
   },
   reducers: {
     setLightTheme: state => {
-        state.value = Colors.lightTheme
+        state.value = lightTheme
         
     },
     setDarkTheme : state => {
-        state.value = Colors.darkTheme
+        state.value = darkTheme
     },
     setMCTheme : state => {
-        state.value = Colors.mcDonaldsTheme
+        state.value = mcDonaldsTheme
     },
   }
 });

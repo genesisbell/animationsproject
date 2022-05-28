@@ -21,4 +21,4 @@ const en = {
     },
 }
 
-export default en;
+export { en };

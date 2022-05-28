@@ -16,7 +16,9 @@ import { useAppSelector } from '../../app/hooks';
 
 //Custom Componentes
 import MenuBottom from './MenuBottom';
-import { IconsHeader } from '../../assets/IconLibrary';
+
+//Assets
+import { IconsHeader } from 'icons';
 
 export type RootStackParams = {
     HomeStack: undefined;

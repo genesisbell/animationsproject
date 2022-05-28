@@ -1,17 +1,20 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import languages from '../../assets/translations/index';
+import {
+  en,
+  es,
+} from 'translations';
 
 export const languageSlice = createSlice({
   name: 'language',
   initialState: {
-    value: languages.en
+    value: en
   },
   reducers: {
     setEnglishLanguage : state => {
-        state.value = languages.en
+        state.value = en
     },
     setSpanishLanguage: state => {
-        state.value = languages.es
+        state.value = es
     },
   }
 });

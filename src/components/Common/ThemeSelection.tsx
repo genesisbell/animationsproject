@@ -14,9 +14,13 @@ import {
     setMCTheme,
 } from '../../app/slices/themeSlice';
 
-//Libraries
-import Colors from '../../assets/ColorsLibrary';
-import { OtherIcons } from '../../assets/IconLibrary';
+//Assets
+import {
+    lightTheme,
+    darkTheme,
+    mcDonaldsTheme,
+} from 'themes';
+import { OtherIcons } from 'icons';
 
 export default function ThemeSelection(){
 
@@ -38,13 +42,13 @@ export default function ThemeSelection(){
             <Text style={[styles.titleText, {color: theme.text}]}>{language.theme.selecTheme}</Text>
             <View style={styles.screenCont}>
                 <TouchableOpacity onPress={() => saveThemeSelection(setLightTheme, 'lightTheme')}>
-                    <SvgXml xml={OtherIcons.phone(120, Colors.lightTheme.mainBackgroundColor, Colors.lightTheme.text)}/>
+                    <SvgXml xml={OtherIcons.phone(120, lightTheme.mainBackgroundColor, lightTheme.text)}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => saveThemeSelection(setDarkTheme, 'darkTheme')}>
-                    <SvgXml xml={OtherIcons.phone(120, Colors.darkTheme.mainBackgroundColor, Colors.darkTheme.text)}/>
+                    <SvgXml xml={OtherIcons.phone(120, darkTheme.mainBackgroundColor, darkTheme.text)}/>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => saveThemeSelection(setMCTheme, 'mcDonaldsTheme')}>
-                    <SvgXml xml={OtherIcons.phone(120, Colors.mcDonaldsTheme.mainBackgroundColor, Colors.mcDonaldsTheme.text)}/>
+                    <SvgXml xml={OtherIcons.phone(120, mcDonaldsTheme.mainBackgroundColor, mcDonaldsTheme.text)}/>
                 </TouchableOpacity>
             </View>
         </View>

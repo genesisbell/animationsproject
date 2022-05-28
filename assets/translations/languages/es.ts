@@ -1,4 +1,4 @@
-const en = {
+const es = {
     name: 'es',
     home:{
         screenTitle:'Inicio',
@@ -21,4 +21,4 @@ const en = {
     }
 }
 
-export default en;
+export { es };

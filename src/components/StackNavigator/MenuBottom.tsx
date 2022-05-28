@@ -19,8 +19,8 @@ import { SvgXml } from 'react-native-svg';
 import { RootStackParams } from './Tabs';
 import { useAppSelector } from '../../app/hooks';
 
-//assets
-import { IconsMenuBottom } from '../../assets/IconLibrary';
+//Assets
+import { IconsMenuBottom } from 'icons';
 
 interface MenuBottomProps{
     tab: number,

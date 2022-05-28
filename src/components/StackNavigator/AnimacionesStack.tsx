@@ -2,7 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 //Screens
-import AnimacionesScreen from '../Screens/Animaciones/AnimacionesScreen';
+import AnimacionesScreen from '../Animaciones/AnimacionesScreen';
 
 export type AnimacionesStackParams = {
     AnimacionesScreen: undefined;
