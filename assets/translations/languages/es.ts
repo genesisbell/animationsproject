@@ -1,24 +1,24 @@
 const es = {
     name: 'es',
-    home:{
-        screenTitle:'Inicio',
+    home: {
+        screenTitle: 'Inicio',
     },
     animations: {
-        screenTitle:'Animaciones',
+        screenTitle: 'Animaciones',
     },
-    theme:{
+    theme: {
         selecTheme: 'Seleccionar Tema',
     },
-    language:{
+    language: {
         selectLanguage: 'Seleccionar Lenguaje',
     },
-    menuBottom : {
+    menuBottom: {
         home: 'Inicio',
         animaciones: 'Animaciones',
     },
-    copyright:{
+    copyright: {
         version: 'Versión',
-    }
-}
+    },
+};
 
-export { es };
+export {es};

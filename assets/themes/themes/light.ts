@@ -1,9 +1,8 @@
-import { sharedColors } from "../common";
+import {sharedColors} from '../common';
 
 const lightTheme = {
-
     ...sharedColors,
-    
+
     mainBackgroundColor: '#EEEEEE',
     headerBackgroundColor: '#54BAB9',
     headerStackText: '#EEEEEE',
@@ -11,7 +10,6 @@ const lightTheme = {
     active: '#54BAB9',
     inactive: '#787A91',
     text: '#252525',
+};
 
-}
-
-export { lightTheme };
+export {lightTheme};

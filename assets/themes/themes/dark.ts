@@ -1,9 +1,8 @@
-import { sharedColors } from "../common";
+import {sharedColors} from '../common';
 
 const darkTheme = {
-
     ...sharedColors,
-    
+
     mainBackgroundColor: '#181818',
     headerBackgroundColor: '#041C32',
     headerStackText: '#DFDFDF',
@@ -11,7 +10,6 @@ const darkTheme = {
     active: '#54BAB9',
     inactive: '#787a91',
     text: '#DFDFDF',
+};
 
-}
-
-export { darkTheme };
+export {darkTheme};

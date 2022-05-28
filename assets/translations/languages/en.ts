@@ -1,24 +1,24 @@
 const en = {
     name: 'en',
-    home:{
-        screenTitle:'Home',
+    home: {
+        screenTitle: 'Home',
     },
     animations: {
-        screenTitle:'Animations',
+        screenTitle: 'Animations',
     },
-    theme:{
+    theme: {
         selecTheme: 'Select Theme',
     },
-    language:{
+    language: {
         selectLanguage: 'Select Language',
     },
-    menuBottom : {
+    menuBottom: {
         home: 'Home',
         animaciones: 'Animations',
     },
-    copyright:{
+    copyright: {
         version: 'Version',
     },
-}
+};
 
-export { en };
+export {en};

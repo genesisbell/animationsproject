@@ -1,7 +1,6 @@
-import { sharedColors } from "../common";
+import {sharedColors} from '../common';
 
 const mcDonaldsTheme = {
-    
     ...sharedColors,
 
     mainBackgroundColor: 'yellow',
@@ -11,6 +10,6 @@ const mcDonaldsTheme = {
     active: 'yellow',
     inactive: '#787A91',
     text: 'red',
-}
+};
 
-export { mcDonaldsTheme };
+export {mcDonaldsTheme};

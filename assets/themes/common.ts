@@ -13,6 +13,6 @@
 const sharedColors = {
     textActive: '#54BAB9',
     textInactive: '#787A91',
-}
+};
 
-export { sharedColors };
+export {sharedColors};
