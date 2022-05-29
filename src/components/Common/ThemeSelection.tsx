@@ -13,6 +13,7 @@ import {
     setLightTheme,
     setMCTheme,
 } from '../../app/slices/themeSlice';
+import CustomScreen from './CustomScreen';
 
 //Assets
 import {
